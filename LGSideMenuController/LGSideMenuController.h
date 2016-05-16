@@ -230,6 +230,8 @@ typedef NS_ENUM(NSUInteger, LGSideMenuSwipeGestureArea)
 @property (assign, nonatomic) IBInspectable BOOL shouldShowLeftView;
 @property (assign, nonatomic) IBInspectable BOOL shouldShowRightView;
 
+@property (strong, nonatomic) UIView *rootViewStyleView;
+
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController;
 
 - (UIView *)leftView;

@@ -139,7 +139,7 @@
 @property (strong, nonatomic) UIImageView *backgroundImageViewForLeftView;
 @property (strong, nonatomic) UIImageView *backgroundImageViewForRightView;
 
-@property (strong, nonatomic) UIView *rootViewStyleView;
+//@property (strong, nonatomic) UIView *rootViewStyleView;
 @property (strong, nonatomic) UIView *leftViewStyleView;
 @property (strong, nonatomic) UIView *rightViewStyleView;
 
